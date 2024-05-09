@@ -19,6 +19,9 @@ class SecureStoreService {
     }
 
     UserCredential getUserCredential(String alias) throws SecureStoreException {
+        if (!userCredentials.containsKey(alias)) {
+            throw new SecureStoreException("Could not fetch the credential for alias ${alias}")
+        }
         return userCredentials.get(alias)
     }
 }
