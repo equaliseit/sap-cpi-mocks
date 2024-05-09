@@ -3,7 +3,7 @@
 
     <groupId>com.equaliseit</groupId>
     <artifactId>sap-cpi-mocks</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -135,6 +135,6 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/equaliseit/sap-cpi-mocks</developerConnection>
-        <tag>1.0.0</tag>
+        <tag>1.0.1</tag>
     </scm>
 </project>
