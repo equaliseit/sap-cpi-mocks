@@ -29,7 +29,7 @@ class ValueMappingApi {
         def key = "${sourceAgency}_${sourceIdentifier}_${targetAgency}_${targetIdentifier}_${sourceValue}"
         def mappedValue = entries.get(key.toString())
         if (!mappedValue) {
-            return sourceValue
+            return null
         } else {
             return mappedValue
         }
