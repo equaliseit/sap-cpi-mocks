@@ -9,7 +9,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jdk.version>8</jdk.version>
         <groovy.all.version>2.4.21</groovy.all.version>
-        <camel.core.version>2.24.2</camel.core.version>
+        <camel.core.version>3.14.7</camel.core.version>
     </properties>
 
     <dependencyManagement>
